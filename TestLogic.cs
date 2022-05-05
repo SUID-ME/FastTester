@@ -31,6 +31,8 @@
 
 				bool answerIsRight = _check_user_answer(question, userAnswerList);
 
+				_print_colored_ansver(userAnswerList);
+
 				if (answerIsRight == true)
 				{
 					Console.WriteLine("Правильно :3");
@@ -38,8 +40,9 @@
 				} else
 				{
 					Console.WriteLine("Неверно :P");
-					_print_right_answers(question);
+					//_print_right_answers(question);
 				}
+
 
 				++_questions_num;
 				Console.ReadKey();
@@ -122,6 +125,37 @@
 			}
 
 			return true;
+		}
+
+		private void _print_colored_ansver(List<int> answers)
+		{
+			Console.Clear();
+			Console.WriteLine("		" + (_questions_num + 1) + "/" + _questions.Count + ": " + _current_question.Question);
+			Console.WriteLine("=========================================================");
+
+			int answerIndex = 1;
+			foreach (var answer in _current_question.Answers)
+			{
+				if (answer.IsTrue == true)
+				{
+					Console.BackgroundColor = ConsoleColor.Green;
+					Console.ForegroundColor = ConsoleColor.Black;
+				} else
+				{
+					foreach (var answerValue in answers)
+					{
+						if (answerValue == answerIndex)
+						{
+							Console.BackgroundColor= ConsoleColor.Red;
+							Console.ForegroundColor = ConsoleColor.Black;
+						}
+					}
+				}
+
+				Console.WriteLine(answerIndex++ + ")" + answer.Answer);
+				Console.ResetColor();
+			}
+			Console.WriteLine("=========================================================");
 		}
 
 		private void _print_question()
