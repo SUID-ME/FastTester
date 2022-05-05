@@ -1,0 +1,15 @@
+C:\Users\bards\source\repos\TST\TST\bin\Debug\net6.0\TST.exe
+C:\Users\bards\source\repos\TST\TST\bin\Debug\net6.0\TST.deps.json
+C:\Users\bards\source\repos\TST\TST\bin\Debug\net6.0\TST.runtimeconfig.json
+C:\Users\bards\source\repos\TST\TST\bin\Debug\net6.0\TST.dll
+C:\Users\bards\source\repos\TST\TST\bin\Debug\net6.0\TST.pdb
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.csproj.AssemblyReference.cache
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.AssemblyInfoInputs.cache
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.AssemblyInfo.cs
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.csproj.CoreCompileInputs.cache
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.dll
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\refint\TST.dll
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.pdb
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\TST.genruntimeconfig.cache
+C:\Users\bards\source\repos\TST\TST\obj\Debug\net6.0\ref\TST.dll

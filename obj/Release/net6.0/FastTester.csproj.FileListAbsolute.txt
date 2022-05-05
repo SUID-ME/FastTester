@@ -1,0 +1,15 @@
+C:\Users\bards\source\repos\FastTester\FastTester\bin\Release\net6.0\FastTester.exe
+C:\Users\bards\source\repos\FastTester\FastTester\bin\Release\net6.0\FastTester.deps.json
+C:\Users\bards\source\repos\FastTester\FastTester\bin\Release\net6.0\FastTester.runtimeconfig.json
+C:\Users\bards\source\repos\FastTester\FastTester\bin\Release\net6.0\FastTester.dll
+C:\Users\bards\source\repos\FastTester\FastTester\bin\Release\net6.0\FastTester.pdb
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.csproj.AssemblyReference.cache
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.AssemblyInfoInputs.cache
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.AssemblyInfo.cs
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.csproj.CoreCompileInputs.cache
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.dll
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\refint\FastTester.dll
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.pdb
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\FastTester.genruntimeconfig.cache
+C:\Users\bards\source\repos\FastTester\FastTester\obj\Release\net6.0\ref\FastTester.dll
