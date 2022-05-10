@@ -28,6 +28,11 @@
 					break;
 				}
 
+				if (question[0] == '!')
+				{
+					continue;
+				}
+
 				Console.WriteLine("Введите ответы.");
 				List<AnswerContent> answers = new List<AnswerContent>();
 

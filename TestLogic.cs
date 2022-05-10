@@ -40,7 +40,7 @@
 				} else
 				{
 					Console.WriteLine("Неверно :P");
-					//_print_right_answers(question);
+					_print_right_answers(question);
 				}
 
 
@@ -81,6 +81,11 @@
 				}
 
 				++answerNum;
+			}
+
+			if (answerNumsOut == "")
+			{
+				answerNumsOut = "Не указан  ";
 			}
 
 			Console.WriteLine(answerNumsOut.Substring(0, answerNumsOut.Length - 2));
