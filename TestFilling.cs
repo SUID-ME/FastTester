@@ -54,7 +54,9 @@
 						answerTxt = answerTxt.Remove(0, 1);
 					}
 
-					if (answerTxt[1] == '.' || answerTxt[1] == ')')
+					Console.WriteLine(answerTxt.Length);
+
+					if (answerTxt.Length > 2 && (answerTxt[1] == '.' || answerTxt[1] == ')'))
 					{
 						answerTxt = answerTxt.Remove(0, 2);
 					}
