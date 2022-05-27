@@ -2,19 +2,30 @@
 {
 	class TestLogic : CMDInterface
 	{
-		public TestLogic(TestContent testContent)
+		public TestLogic()
 		{
-			_questions = testContent.Questions;
+			questions = new List<QuestionContent>();
 		}
 
-		public void StartTesting()
+		public TestLogic(TestContent testContent)
 		{
-			Shuffle<QuestionContent>(_questions);
-			foreach (var question in _questions)
+			questions = testContent.Questions;
+		}
+
+		public TestLogic(List<QuestionContent> questionsList)
+		{
+			questions = questionsList;
+		}
+
+		protected void testingProcess()
+		{
+			questions_num = _right_answers_num = 0;
+			Shuffle<QuestionContent>(questions);
+			foreach (var question in questions)
 			{
 				Console.Clear();
 				Shuffle<AnswerContent>(question.Answers);
-				_current_question = question;
+				current_question = question;
 				_print_question();
 				List<int> userAnswerList = new List<int>();
 				string? userAnswer = "";
@@ -36,34 +47,46 @@
 				if (answerIsRight == true)
 				{
 					Console.WriteLine("Правильно :3");
+					onRightAnswer();
 					++_right_answers_num;
-				} else
+				}
+				else
 				{
 					Console.WriteLine("Неверно :P");
+					onWrongAnswer();
 					_print_right_answers(question);
 				}
 
 
-				++_questions_num;
+				++questions_num;
 				Console.ReadKey();
 			}
 		}
+
+		protected virtual void onRightAnswer() {}
+
+		protected virtual void onWrongAnswer() {}
 
 		public void PrintTestResult()
 		{
 			Console.Clear();
 			float successProcent;
-			if (_questions_num != 0)
+			if (questions_num != 0)
 			{
-				successProcent = (_right_answers_num / _questions_num) * 100;
+				successProcent = (_right_answers_num / questions_num) * 100;
 			} else
 			{
 				successProcent = 0;
 			}
 			
 			Console.WriteLine("Успешность ответов: " + Math.Ceiling(successProcent) + "%");
-			Console.WriteLine("Количество правильных ответов: " + _right_answers_num + "/" + _questions_num);
+			Console.WriteLine("Количество правильных ответов: " + _right_answers_num + "/" + questions_num);
 			Console.ReadKey();
+		}
+
+		public void Add(QuestionContent question)
+		{
+			questions.Add(question);
 		}
 
 		private void _print_right_answers(QuestionContent question)
@@ -135,26 +158,36 @@
 		private void _print_colored_ansver(List<int> answers)
 		{
 			Console.Clear();
-			Console.WriteLine("		" + (_questions_num + 1) + "/" + _questions.Count + ": " + _current_question.Question);
+			Console.WriteLine("		" + (questions_num + 1) + "/" + questions.Count + ": " + current_question.Question);
 			Console.WriteLine("=========================================================");
 
 			int answerIndex = 1;
-			foreach (var answer in _current_question.Answers)
+			foreach (var answer in current_question.Answers)
 			{
-				if (answer.IsTrue == true)
+				bool isChoosen = false;
+				foreach (var answerValue in answers)
+				{
+					if (answerValue == answerIndex)
+					{
+						isChoosen = true;
+						break ;
+					}
+				}
+
+				if (isChoosen == true && answer.IsTrue == true)
 				{
 					Console.BackgroundColor = ConsoleColor.Green;
 					Console.ForegroundColor = ConsoleColor.Black;
-				} else
+				}
+				else if (isChoosen == true && answer.IsTrue == false)
 				{
-					foreach (var answerValue in answers)
-					{
-						if (answerValue == answerIndex)
-						{
-							Console.BackgroundColor= ConsoleColor.Red;
-							Console.ForegroundColor = ConsoleColor.Black;
-						}
-					}
+					Console.BackgroundColor = ConsoleColor.Red;
+					Console.ForegroundColor = ConsoleColor.Black;
+				}
+				else if (answer.IsTrue == true)
+				{
+					Console.BackgroundColor = ConsoleColor.Cyan;
+					Console.ForegroundColor = ConsoleColor.Black;
 				}
 
 				Console.WriteLine(answerIndex++ + ")" + answer.Answer);
@@ -165,11 +198,11 @@
 
 		private void _print_question()
 		{
-			Console.WriteLine("		" + (_questions_num + 1) + "/" + _questions.Count + ": " + _current_question.Question);
+			Console.WriteLine("		" + (questions_num + 1) + "/" + questions.Count + ": " + current_question.Question);
 			Console.WriteLine("=========================================================");
 
 			int answerIndex = 0;
-			foreach (var answer in _current_question.Answers)
+			foreach (var answer in current_question.Answers)
 			{
 				Console.WriteLine(++answerIndex + ")" + answer.Answer);
 			}
@@ -198,12 +231,12 @@
 			}
 		}
 
-		private List<QuestionContent> _questions;
+		protected List<QuestionContent> questions;
 
-		private QuestionContent _current_question;
+		protected QuestionContent current_question;
 
 		private float _right_answers_num = 0;
 
-		private float _questions_num = 0;
+		private float questions_num = 0;
 	}
 }
