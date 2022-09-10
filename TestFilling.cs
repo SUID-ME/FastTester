@@ -69,8 +69,83 @@
 			}
 		}
 
+		public void FillContent2()
+		{
+			Console.Clear();
+			_content.ClearContent();
+			Console.WriteLine("Введите путь к файлу");
+			String? filepath = Console.ReadLine();
+			if (String.IsNullOrEmpty(filepath))
+			{
+				_error("Путь не введен");
+				return;
+			}
+
+			if (!File.Exists(filepath))
+			{
+				_error("Файл не существует");
+				return;
+			}
+
+			bool isQuestionEnd = true;
+			String question = "";
+			List<AnswerContent> answers = new List<AnswerContent>(); 
+			AnswerContent answerContent = new AnswerContent();
+
+			foreach (string line in System.IO.File.ReadLines(filepath))
+			{
+				if (isQuestionEnd && String.IsNullOrEmpty(line) == false)
+				{
+					question = line;
+					isQuestionEnd = false;
+					continue;
+				} else if (isQuestionEnd == false)
+				{
+					if (String.IsNullOrEmpty(line) == true)
+					{
+						if (answers.Count > 0)
+						{
+							_content.AddQuestion(question, answers);
+						}
+						
+						answers = new List<AnswerContent>();
+						isQuestionEnd = true;
+						continue;
+					}
+
+					String currentAnswer = "";
+					if (line[0] == '~')
+					{
+						currentAnswer = line.Substring(1);
+						answerContent.IsTrue = true;
+					} else
+					{
+						currentAnswer = line;
+					}
+
+					if (currentAnswer.Length > 2 && (currentAnswer[1] == '.' || line[1] == ')'))
+					{
+						currentAnswer = currentAnswer.Remove(0, 2);
+					}
+
+					answerContent.Answer = currentAnswer;
+					answers.Add(answerContent);
+					answerContent = new AnswerContent();
+				}
+			}
+
+			Console.WriteLine("Тест создан. Количество элементов в тесте = " + _content.Questions.Count);
+			Console.ReadKey();
+		}
+		
 		public TestContent Content { get { return _content; } }
 
 		private TestContent _content;
+
+		private void _error(string info)
+		{
+			Console.WriteLine("Error: " + info);
+			Console.ReadKey();
+		}
 	}
 }

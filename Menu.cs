@@ -27,7 +27,7 @@
 						{
 							if (_test_filling != null)
 							{
-								_test_filling.FillContent();
+								_test_filling.FillContent2();
 							}
 							break;
 						}
