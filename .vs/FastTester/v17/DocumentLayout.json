@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyShit\\visualPet\\FastTester\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\testfilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:testfilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\testcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:testcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\constructedtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:constructedtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\testlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:testlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\mistakestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:mistakestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|c:\\myshit\\visualpet\\fasttester\\cmdinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2775DBFE-61A8-43AF-B5F3-EB9E44CAD034}|FastTester.csproj|solutionrelative:cmdinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestLogic.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\TestLogic.cs",
+              "RelativeDocumentMoniker": "TestLogic.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\TestLogic.cs",
+              "RelativeToolTip": "TestLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestFilling.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\TestFilling.cs",
+              "RelativeDocumentMoniker": "TestFilling.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\TestFilling.cs",
+              "RelativeToolTip": "TestFilling.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAwwJQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:40.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestContent.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\TestContent.cs",
+              "RelativeDocumentMoniker": "TestContent.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\TestContent.cs",
+              "RelativeToolTip": "TestContent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:39.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MistakesTest.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\MistakesTest.cs",
+              "RelativeDocumentMoniker": "MistakesTest.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\MistakesTest.cs",
+              "RelativeToolTip": "MistakesTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:37.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConstructedTest.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\ConstructedTest.cs",
+              "RelativeDocumentMoniker": "ConstructedTest.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\ConstructedTest.cs",
+              "RelativeToolTip": "ConstructedTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CMDInterface.cs",
+              "DocumentMoniker": "C:\\MyShit\\visualPet\\FastTester\\CMDInterface.cs",
+              "RelativeDocumentMoniker": "CMDInterface.cs",
+              "ToolTip": "C:\\MyShit\\visualPet\\FastTester\\CMDInterface.cs",
+              "RelativeToolTip": "CMDInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T10:59:17.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

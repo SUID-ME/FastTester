@@ -123,13 +123,14 @@
 						currentAnswer = line;
 					}
 
-					if (currentAnswer.Length > 2 && (currentAnswer[1] == '.' || line[1] == ')'))
-					{
-						currentAnswer = currentAnswer.Remove(0, 2);
-					}
+					currentAnswer = currentAnswer.TrimStart(_numbering_symbols);
 
-					answerContent.Answer = currentAnswer;
-					answers.Add(answerContent);
+					if (String.IsNullOrEmpty(currentAnswer) == false)
+					{
+                        answerContent.Answer = currentAnswer;
+                        answers.Add(answerContent);
+                    }
+
 					answerContent = new AnswerContent();
 				}
 			}
@@ -147,5 +148,7 @@
 			Console.WriteLine("Error: " + info);
 			Console.ReadKey();
 		}
-	}
+
+		private char[] _numbering_symbols = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', '.', ')' };
+    }
 }
