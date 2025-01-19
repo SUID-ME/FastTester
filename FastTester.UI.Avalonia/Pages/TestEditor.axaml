@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="FastTester.UI.Avalonia.Pages.TestEditor">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="70*"/>
+			<ColumnDefinition Width="30*"/>
+		</Grid.ColumnDefinitions>
+
+		<ListBox x:Name="ListBox_QuestionsList" Grid.Row="0" Grid.Column="0">
+
+		</ListBox>
+
+		<Grid Grid.Column="1">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="10*"/>
+				<RowDefinition Height="30"/>
+			</Grid.RowDefinitions>
+
+			<StackPanel Grid.Row="0" Margin="1">
+				<Button Content="Load from file" Click="Click_FileLoad" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+			</StackPanel>
+
+			<Button Grid.Row="1" Margin="1" Content="Back" Click="Click_Back" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+		</Grid>
+	</Grid>
+</UserControl>

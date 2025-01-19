@@ -1,2 +1,0 @@
-C:\MySheet\ProgramRelease\FastTester\FastTester.pdb
-C:\MySheet\ProgramRelease\FastTester\FastTester.exe
