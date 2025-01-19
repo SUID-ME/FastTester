@@ -17,7 +17,7 @@ public partial class TestEditor : PageAbstract
 
     public void Click_Back(object sender, RoutedEventArgs args)
     {
-        _pageController.SwitchPage(PageController.Page.TestList);
+        _pageController?.SwitchPage(PageController.Page.TestList);
     }
 
     public async void Click_FileLoad(object sender, RoutedEventArgs args)
@@ -39,7 +39,25 @@ public partial class TestEditor : PageAbstract
             using var streamReader = new StreamReader(stream);
             // Reads all the content of file as a text.
             var fileContent = await streamReader.ReadToEndAsync();
-            Debug.Write(fileContent);
+            _fillListBox(fileContent);
         }
+    }
+
+    private void _fillListBox(string content)
+    {
+        //Логика заполнения списка вопросов
+        //ListBox_QuestionsList.Items.Clear();
+
+        //var lines = content.Split('\n');
+        //foreach (var line in lines) {
+        //    if (string.IsNullOrWhiteSpace(line))
+        //    {
+        //        continue;
+        //    }
+
+        //    TextBox box = new TextBox();
+        //    box.Text = line;
+        //    ListBox_QuestionsList.Items.Add(box);
+        //}
     }
 }
