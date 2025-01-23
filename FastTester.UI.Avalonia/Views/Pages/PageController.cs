@@ -1,13 +1,13 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.Presenters;
-using FastTester.UI.Avalonia.Pages;
+using FastTester.UI.Avalonia.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FastTester.UI.Avalonia
+namespace FastTester.UI.Avalonia.Views.Pages
 {
     public class PageController
     {
@@ -31,17 +31,17 @@ namespace FastTester.UI.Avalonia
             {
                 case Page.MainMenu:
                     {
-                        newPage = new MainMenu();
+                        newPage = new MainView();
                         break;
                     }
                 case Page.TestList:
                     {
-                        newPage = new TestsList();
+                        newPage = new TestListView();
                         break;
                     }
                 case Page.TestEditorNew:
                     {
-                        newPage = new TestEditor();
+                        newPage = new TestEditorView();
                         break;
                     }
             }

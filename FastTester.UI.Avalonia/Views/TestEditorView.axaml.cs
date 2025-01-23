@@ -1,16 +1,16 @@
-using Avalonia;
+п»їusing Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Platform.Storage;
-using System.Diagnostics;
+using FastTester.UI.Avalonia.Views.Pages;
 using System.IO;
 
-namespace FastTester.UI.Avalonia.Pages;
+namespace FastTester.UI.Avalonia.Views;
 
-public partial class TestEditor : PageAbstract
+public partial class TestEditorView : PageAbstract
 {
-    public TestEditor()
+    public TestEditorView()
     {
         InitializeComponent();
     }
@@ -45,7 +45,6 @@ public partial class TestEditor : PageAbstract
 
     private void _fillListBox(string content)
     {
-        //Логика заполнения списка вопросов
         //ListBox_QuestionsList.Items.Clear();
 
         //var lines = content.Split('\n');

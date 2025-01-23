@@ -3,7 +3,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="FastTester.UI.Avalonia.Pages.TestsList">
+             x:Class="FastTester.UI.Avalonia.Views.TestListView">
+
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="70*"/>
@@ -19,7 +20,7 @@
 				<RowDefinition Height="10*"/>
 				<RowDefinition Height="30"/>
 			</Grid.RowDefinitions>
-			
+
 			<StackPanel Grid.Row="0" Margin="1">
 				<Button Content="Run" Click="" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" IsEnabled="False"/>
 				<Button Content="Edit" Click="" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" IsEnabled="False"/>

@@ -2,10 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-			 xmlns:item="clr-namespace:FastTester.UI.Avalonia.ListItems"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="FastTester.UI.Avalonia.Pages.TestEditor">
-
+             x:Class="FastTester.UI.Avalonia.Views.TestEditorView">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition/>
@@ -17,7 +15,7 @@
 
 		<ListBox x:Name="ListBox_QuestionsList" Grid.Row="0" Grid.Column="0">
 			<ListBoxItem>
-				<item:QuestionListItem/>
+				<!--<item:QuestionListItem/>-->
 			</ListBoxItem>
 		</ListBox>
 

@@ -2,12 +2,13 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using FastTester.UI.Avalonia.Views.Pages;
 
-namespace FastTester.UI.Avalonia.Pages;
+namespace FastTester.UI.Avalonia.Views;
 
-public partial class TestsList : PageAbstract
+public partial class TestListView : PageAbstract
 {
-    public TestsList()
+    public TestListView()
     {
         InitializeComponent();
     }

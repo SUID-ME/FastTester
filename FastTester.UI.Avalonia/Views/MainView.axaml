@@ -12,5 +12,9 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+	<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+		<Button Content="List of tests" Click="Click_TestListView"/>
+		<Button Content="Work on mistakes" Click="Click_WorkOnMistakes"/>
+		<Button Content="Exit" Click="Click_Exit"/>
+	</StackPanel>
 </UserControl>

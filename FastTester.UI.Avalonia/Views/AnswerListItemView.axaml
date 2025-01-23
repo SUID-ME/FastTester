@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="50"
+             x:Class="FastTester.UI.Avalonia.Views.AnswerListItemView"
+			 xmlns:vm="clr-namespace:FastTester.UI.Avalonia.ViewModels"
+			 x:DataType="vm:AnserItemVM">
+
+	<Design.DataContext>
+		<vm:AnserItemVM/>
+	</Design.DataContext>
+	<DockPanel>
+		<CheckBox IsChecked="{Binding Item.IsRight}"/>
+		<TextBox Text="{Binding Item.TextContent}" AcceptsReturn="True" TextWrapping="Wrap"/>
+	</DockPanel>
+</UserControl>
