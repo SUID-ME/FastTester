@@ -25,13 +25,21 @@ namespace FastTester.Logic.Models
             {
                 Answers = answerItems;
             }
-            
+
             TextContent = textContent;
         }
 
         public void SetAnswers(List<AnswerItem> answerItems)
         {
             Answers = Answers;
+        }
+
+        public void AddAnswer(string text, bool isRight)
+        {
+            Answers.Add(new AnswerItem(text)
+            {
+                IsRight = isRight
+            });
         }
 
         public string TextContent { get; set; }

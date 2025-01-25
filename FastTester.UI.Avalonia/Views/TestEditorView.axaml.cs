@@ -3,6 +3,8 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Platform.Storage;
+using Avalonia.Threading;
+using FastTester.Logic.Models;
 using FastTester.UI.Avalonia.Views.Pages;
 using System.IO;
 
@@ -39,24 +41,32 @@ public partial class TestEditorView : PageAbstract
             using var streamReader = new StreamReader(stream);
             // Reads all the content of file as a text.
             var fileContent = await streamReader.ReadToEndAsync();
-            _fillListBox(fileContent);
+            if (_testerLogic == null)
+            {
+                return;
+            }
+
+            _testerLogic.Parser.OnParseComplete += _fillListBox;
+            _ = _testerLogic.TestParse(fileContent);
         }
     }
 
-    private void _fillListBox(string content)
+    private void _fillListBox(TestContent content)
     {
-        //ListBox_QuestionsList.Items.Clear();
+        Dispatcher.UIThread.Post(() =>
+        {
+            _fillListBoxUIThread(content);
+        });
+    }
 
-        //var lines = content.Split('\n');
-        //foreach (var line in lines) {
-        //    if (string.IsNullOrWhiteSpace(line))
-        //    {
-        //        continue;
-        //    }
-
-        //    TextBox box = new TextBox();
-        //    box.Text = line;
-        //    ListBox_QuestionsList.Items.Add(box);
-        //}
+    private void _fillListBoxUIThread(TestContent content)
+    {
+        ListBox_QuestionsList.Items.Clear();
+        foreach (var item in content.QuestionItems)
+        {
+            QuestionListItemView questionView = new QuestionListItemView();
+            questionView.SetItem(item);
+            ListBox_QuestionsList.Items.Add(questionView);
+        }
     }
 }

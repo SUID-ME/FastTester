@@ -1,5 +1,6 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.Presenters;
+using FastTester.Logic;
 using FastTester.UI.Avalonia.Views;
 using System;
 using System.Collections.Generic;
@@ -18,9 +19,10 @@ namespace FastTester.UI.Avalonia.Views.Pages
             TestEditorNew
         }
 
-        public PageController(ContentPresenter presenter, Page startPage = Page.MainMenu)
+        public PageController(TesterLogic logic, ContentPresenter presenter, Page startPage = Page.MainMenu)
         {
             _presenter = presenter;
+            _testerLogic = logic;
             SwitchPage(startPage);
         }
 
@@ -50,10 +52,14 @@ namespace FastTester.UI.Avalonia.Views.Pages
             {
                 return;
             }
+
             newPage.Controller = this;
+            newPage.SetLogic(_testerLogic);
+            
             _presenter.Content = newPage;
         }
 
         private ContentPresenter _presenter;
+        private TesterLogic _testerLogic;
     }
 }

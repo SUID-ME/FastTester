@@ -19,6 +19,8 @@ namespace FastTester.Logic
             await Task.Run(() => _parser.Parse(text));
         }
 
+        public TestParser Parser => _parser;
+
         private TestParser _parser;
     }
 }

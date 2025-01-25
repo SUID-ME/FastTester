@@ -15,5 +15,10 @@ public partial class QuestionListItemView : UserControl
         DataContext = _vm;
     }
 
+    public void SetItem(QuestionItem item)
+    {
+        _vm.Item = item;
+    }
+
     private QuestionItemVM _vm;
 }
