@@ -17,7 +17,14 @@ public partial class QuestionListItemView : UserControl
 
     public void SetItem(QuestionItem item)
     {
+        StackPanel_AnswerList.Children.Clear();
         _vm.Item = item;
+        foreach (var answer in item.Answers)
+        {
+            AnswerListItemView answerView = new AnswerListItemView();
+            answerView.SetItem(answer);
+            StackPanel_AnswerList.Children.Add(answerView);
+        }
     }
 
     private QuestionItemVM _vm;

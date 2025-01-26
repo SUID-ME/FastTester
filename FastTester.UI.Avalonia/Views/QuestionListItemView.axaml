@@ -15,7 +15,7 @@
 		</Grid.RowDefinitions>
 
 		<TextBox Grid.Row="0" Margin="1" Text="{Binding Item.TextContent}" AcceptsReturn="True" TextWrapping="Wrap"/>
-		<StackPanel Grid.Row="1" Margin="5">
+		<StackPanel x:Name="StackPanel_AnswerList" Grid.Row="1" Margin="5">
 			<view:AnswerListItemView/>
 		</StackPanel>
 	</Grid>

@@ -11,6 +11,7 @@ namespace FastTester.Logic
     {
         public TesterLogic() { 
             _parser = new TestParser();
+            _tests = new List<TestContent>();
         }
 
         public async Task TestParse(string text)
@@ -19,8 +20,19 @@ namespace FastTester.Logic
             await Task.Run(() => _parser.Parse(text));
         }
 
+        public void AddTest(TestContent content)
+        {
+            _tests.Add(content);
+        }
+        
+        public void SaveTests()
+        {
+
+        }
+
         public TestParser Parser => _parser;
 
         private TestParser _parser;
+        private List<TestContent> _tests;
     }
 }

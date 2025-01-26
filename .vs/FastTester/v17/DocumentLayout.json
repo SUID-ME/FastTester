@@ -3,83 +3,20 @@
   "WorkspaceRootPath": "E:\\MyShit\\Coding\\visualPet\\FastTester\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\testeditorview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\testeditorview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\questionlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\questionlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kira Yoshikage\\AppData\\Local\\Temp\\VSGeneratedDocuments\\98273882-8ec3-9e2a-37bb-46da3d79bd8c\\FastTester.UI.Avalonia.Views.QuestionListItemView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\viewmodels\\questionitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\viewmodels\\questionitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\testparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\testparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\models\\testcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\models\\testcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\pages\\pageabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\pages\\pageabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\viewmodels\\testcontentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\viewmodels\\testcontentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\viewmodels\\anseritemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\viewmodels\\anseritemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\fasttester.ui.avalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\fasttester.ui.avalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\models\\answeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\models\\answeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\testerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\testerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\fasttester.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\fasttester.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\models\\questionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\models\\questionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\answerlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\answerlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\answerlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\answerlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\pages\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\pages\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\testeditorview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\testeditorview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\testeditorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\testeditorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\questionlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\questionlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\testlistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,8 +27,72 @@
       "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\testlistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\questionlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\questionlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\questionlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\questionlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\viewmodels\\questionitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\viewmodels\\questionitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\viewmodels\\anseritemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\viewmodels\\anseritemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\models\\questionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\models\\questionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\answerlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\answerlistitemview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\answerlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\answerlistitemview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\testerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\testerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\pages\\pageabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\pages\\pageabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\testparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\testparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\fasttester.ui.avalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\fasttester.ui.avalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\models\\answeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\models\\answeritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.logic\\fasttester.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{998BFF90-0F11-4505-964F-C344985EB818}|FastTester.Logic\\FastTester.Logic.csproj|solutionrelative:fasttester.logic\\fasttester.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\pages\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|solutionrelative:fasttester.ui.avalonia\\views\\pages\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41D9F09C-9746-48C7-BD1B-C4C5F8CF9F55}|FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj|e:\\myshit\\coding\\visualpet\\fasttester\\fasttester.ui.avalonia\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -113,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -129,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\MainWindow.axaml.cs",
@@ -143,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 15,
               "Title": "MainView.axaml",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\MainView.axaml",
@@ -151,11 +152,12 @@
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\MainView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-23T18:04:04.047Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "MainView.axaml.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\MainView.axaml.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\MainView.axaml.cs",
@@ -169,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "TestListView.axaml",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\TestListView.axaml",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\TestListView.axaml",
@@ -177,11 +179,12 @@
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\TestListView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-23T18:18:54.479Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
               "Title": "TestListView.axaml.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\TestListView.axaml.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\TestListView.axaml.cs",
@@ -190,11 +193,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T18:18:58.017Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "TestEditorView.axaml",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\TestEditorView.axaml",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\TestEditorView.axaml",
@@ -207,13 +211,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TestEditorView.axaml.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\TestEditorView.axaml.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\TestEditorView.axaml.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\TestEditorView.axaml.cs",
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\TestEditorView.axaml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T18:18:17.181Z",
               "IsPinned": true,
@@ -221,7 +225,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
+              "Title": "TestContentVM.cs",
+              "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\TestContentVM.cs",
+              "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\ViewModels\\TestContentVM.cs",
+              "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\TestContentVM.cs",
+              "RelativeToolTip": "FastTester.UI.Avalonia\\ViewModels\\TestContentVM.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T11:08:51.282Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestContent.cs",
+              "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\TestContent.cs",
+              "RelativeDocumentMoniker": "FastTester.Logic\\Models\\TestContent.cs",
+              "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\TestContent.cs",
+              "RelativeToolTip": "FastTester.Logic\\Models\\TestContent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:35:13.491Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "QuestionListItemView.axaml",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml",
@@ -234,13 +266,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "QuestionListItemView.axaml.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml.cs",
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\QuestionListItemView.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T18:25:07.127Z",
               "IsPinned": true,
@@ -248,7 +280,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
+              "Title": "QuestionItemVM.cs",
+              "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
+              "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
+              "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
+              "RelativeToolTip": "FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T19:40:49.408Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "QuestionItem.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\QuestionItem.cs",
               "RelativeDocumentMoniker": "FastTester.Logic\\Models\\QuestionItem.cs",
@@ -262,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "AnswerListItemView.axaml",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\AnswerListItemView.axaml",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\AnswerListItemView.axaml",
@@ -281,7 +327,7 @@
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\AnswerListItemView.axaml.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\AnswerListItemView.axaml.cs",
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\AnswerListItemView.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T18:42:25.044Z",
               "IsPinned": true,
@@ -289,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AnserItemVM.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\AnserItemVM.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\ViewModels\\AnserItemVM.cs",
@@ -303,79 +349,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FastTester.UI.Avalonia.Views.QuestionListItemView.g.cs [generated]",
-              "DocumentMoniker": "C:\\Users\\Kira Yoshikage\\AppData\\Local\\Temp\\VSGeneratedDocuments\\98273882-8ec3-9e2a-37bb-46da3d79bd8c\\FastTester.UI.Avalonia.Views.QuestionListItemView.g.cs",
-              "ToolTip": "FastTester.UI.Avalonia.Views.QuestionListItemView.g.cs [generated by Avalonia.Generators.NameGenerator.AvaloniaNameSourceGenerator]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenToolTip": "FastTester.UI.Avalonia.Views.QuestionListItemView.g.cs [generated by Avalonia.Generators.NameGenerator.AvaloniaNameSourceGenerator]",
-              "WhenOpened": "2025-01-25T16:22:34.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "PageAbstract.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\Pages\\PageAbstract.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\Pages\\PageAbstract.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\Pages\\PageAbstract.cs",
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\Pages\\PageAbstract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T14:33:35.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestContent.cs",
-              "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\TestContent.cs",
-              "RelativeDocumentMoniker": "FastTester.Logic\\Models\\TestContent.cs",
-              "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\TestContent.cs",
-              "RelativeToolTip": "FastTester.Logic\\Models\\TestContent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T21:35:13.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "TestParser.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\TestParser.cs",
               "RelativeDocumentMoniker": "FastTester.Logic\\TestParser.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\TestParser.cs",
               "RelativeToolTip": "FastTester.Logic\\TestParser.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:20:21.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "TesterLogic.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\TesterLogic.cs",
               "RelativeDocumentMoniker": "FastTester.Logic\\TesterLogic.cs",
               "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\TesterLogic.cs",
               "RelativeToolTip": "FastTester.Logic\\TesterLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T20:00:38.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuestionItemVM.cs",
-              "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
-              "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
-              "ToolTip": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
-              "RelativeToolTip": "FastTester.UI.Avalonia\\ViewModels\\QuestionItemVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T19:40:49.408Z",
               "EditorCaption": ""
             },
             {
@@ -404,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "FastTester.UI.Avalonia.csproj",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\FastTester.UI.Avalonia.csproj",
@@ -417,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "AnswerItem.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\Models\\AnswerItem.cs",
               "RelativeDocumentMoniker": "FastTester.Logic\\Models\\AnswerItem.cs",
@@ -425,12 +433,11 @@
               "RelativeToolTip": "FastTester.Logic\\Models\\AnswerItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T18:44:49.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T18:44:49.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "FastTester.Logic.csproj",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.Logic\\FastTester.Logic.csproj",
               "RelativeDocumentMoniker": "FastTester.Logic\\FastTester.Logic.csproj",
@@ -443,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "PageController.cs",
               "DocumentMoniker": "E:\\MyShit\\Coding\\visualPet\\FastTester\\FastTester.UI.Avalonia\\Views\\Pages\\PageController.cs",
               "RelativeDocumentMoniker": "FastTester.UI.Avalonia\\Views\\Pages\\PageController.cs",
@@ -451,8 +458,7 @@
               "RelativeToolTip": "FastTester.UI.Avalonia\\Views\\Pages\\PageController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T18:20:33.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T18:20:33.007Z"
             }
           ]
         }

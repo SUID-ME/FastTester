@@ -18,12 +18,12 @@ namespace FastTester.Logic
             QuestionItem question = new QuestionItem();
 
             bool isQuestionEnd = true;
-            var lines = input.Split('\n');
+            var lines = input.Split('\n').Select(s => s.Replace("\r", ""));
             foreach (var line in lines)
             {
                 if (isQuestionEnd == false)
                 {
-                    if (string.IsNullOrWhiteSpace(line) == true && question.Answers.Count >0)
+                    if (string.IsNullOrWhiteSpace(line) == true && question.Answers.Count > 0)
                     {
                         isQuestionEnd = true;
                         testContent.QuestionItems.Add(question);
@@ -31,9 +31,12 @@ namespace FastTester.Logic
                         continue;
                     }
 
-                    addAnswer(question, line);
-
-                } else if (string.IsNullOrEmpty(line) == false)
+                    if (string.IsNullOrWhiteSpace(line) == false)
+                    {
+                        addAnswer(question, line);
+                    }
+                }
+                else if (string.IsNullOrEmpty(line) == false)
                 {
                     isQuestionEnd = false;
                     question.TextContent = line;
@@ -70,9 +73,9 @@ namespace FastTester.Logic
             }
         }
 
-        private char[] _numbering_symbols = new char[] { 
+        private char[] _numbering_symbols = new char[] {
             '1', '2', '3', '4', '5', '6',
-            '7', '8', '9', '0', ' ', '.', ')' 
+            '7', '8', '9', '0', ' ', '.', ')'
         };
     }
 }

@@ -5,6 +5,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using FastTester.Logic.Models;
+using FastTester.UI.Avalonia.ViewModels;
 using FastTester.UI.Avalonia.Views.Pages;
 using System.IO;
 
@@ -15,11 +16,30 @@ public partial class TestEditorView : PageAbstract
     public TestEditorView()
     {
         InitializeComponent();
+        Button_SaveTest.IsEnabled = false;
+        _vm = new TestContentVM();
+        DataContext = _vm;
     }
 
     public void Click_Back(object sender, RoutedEventArgs args)
     {
         _pageController?.SwitchPage(PageController.Page.TestList);
+    }
+    
+    public void Click_SaveTest(object sender, RoutedEventArgs args)
+    {
+        if (_vm.Item.QuestionItems == null || _vm.Item.QuestionItems.Count == 0)
+        {
+            return;
+        }
+
+        _testerLogic.AddTest(_vm.Item);
+        _testerLogic.SaveTests();
+    }
+
+    public void Click_Debug(object sender, RoutedEventArgs args)
+    {
+
     }
 
     public async void Click_FileLoad(object sender, RoutedEventArgs args)
@@ -61,12 +81,33 @@ public partial class TestEditorView : PageAbstract
 
     private void _fillListBoxUIThread(TestContent content)
     {
+        if (content == null)
+        {
+            return;
+        }
+
+        content.TestName = _vm.Item.TestName;
+        _vm.Item = content;
         ListBox_QuestionsList.Items.Clear();
-        foreach (var item in content.QuestionItems)
+        foreach (var item in _vm.Item.QuestionItems)
         {
             QuestionListItemView questionView = new QuestionListItemView();
             questionView.SetItem(item);
             ListBox_QuestionsList.Items.Add(questionView);
         }
     }
+
+    private void _checkIsTestSaveAvalable()
+    {
+        if (_vm.Item.QuestionItems != null && _vm.Item.QuestionItems.Count > 0)
+        {
+            Button_SaveTest.IsEnabled = true;
+        } else
+        {
+            Button_SaveTest.IsEnabled = false;
+        }
+    }
+
+    //private TestContent _currentTest = new TestContent();
+    private TestContentVM _vm;
 }
